@@ -1,0 +1,1 @@
+curl -s -X GET "http://philips-dev.apigee.net/smartsleep-companion/Scoring/GetRequiredQuestionSenses/bmi" -H "Authorization: Bearer ACCESSTOKEN" | python -m json.tool
