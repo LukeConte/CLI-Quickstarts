@@ -1,0 +1,3 @@
+curl -s -X GET -d "client_id=APIKEY&client_secret=SECRETKEY&grant_type=client_credentials" http://philips-dev.apigee.net/oauth/accessToken | grep -Fi access_token
+
+#adding comment for Gist feature testing
